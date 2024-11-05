@@ -1,0 +1,192 @@
+*{
+    padding: 0 0;
+    margin: 0;
+}
+header{
+    height: 400px;
+    width: 350px;
+    forced-color-adjust: white;
+    border: 1px solid lightgrey;
+    margin-left: 38%;
+    margin-top: 0.99%;
+    
+}
+main{
+    display: flex;
+    background-color: white;
+}
+.logo img{
+    height: 85px;
+    padding-top:7% ;
+    padding: -20px 0;
+    margin-left: 18%;
+    background-color: white;
+}
+.input input{
+    border-radius: 3px;
+    border: 1px solid rgb(234, 230, 230);
+    text-align: start;
+    padding: 0 6px;
+    color: rgb(132, 128, 128);
+    font-size: 12px;
+    background-color: rgba(239, 245, 245, 0.913);
+    font-weight: 400;
+}
+.input .signin
+{
+    height: 30px;
+    width: 260px;
+    margin-top: 7%;
+    margin-left: 12.5%;
+}
+.input .pass
+{
+    height: 30px;
+    width: 260px;
+    margin-top: 2%;
+    margin-left: 12.5%;
+}
+button{
+    width: 270px;
+    margin-top: 5%;
+    height: 30px;
+    margin-left: 12.5%;
+    background-color: rgb(43, 131, 189);
+    color: white;
+    border-radius: 4px;
+    border-color: white;
+    cursor: pointer;
+    border: none;
+}
+ .hr1{
+   color: rgb(242, 236, 236);
+   padding-left: 10px;
+   width: 90px;
+   margin-top: 7%;
+   margin-left: 13%;
+}
+p{
+    margin-left: 46%;
+    margin-top: -3.5%;
+    color: rgb(165, 162, 162);   
+}
+.hr2{
+    color: rgb(242, 236, 236);
+    width: 110px;
+    margin-left: 57%;
+    margin-top: -2%;
+}
+.fb1 {
+    margin-top: 20%;
+    text-decoration: none;
+    color: rgb(0, 0, 147);
+    font-family:sans-serif ;
+    font-size: 14px;
+}
+.fb:hover{
+    cursor: pointer;
+}
+.fb img{
+    margin-left: 25%;
+    margin-top: 10%;
+    padding: 1px 3px;
+}
+.fp{
+    text-decoration: none;
+    margin-left: 34.5%;
+    display: flex;
+    flex: 1;
+    margin-top: 29px;
+    color: rgb(75, 81, 83);
+    font-size: 13px;
+    font-family:  sans-serif;
+    font-weight: 300;
+}
+.signup{
+    width: 350px;
+    height: 60px;
+    border: 1px solid lightgrey;
+    margin-top: 0.75%;
+    margin-left: 38%;
+   
+}
+.signup p{
+   color: rgb(142, 139, 139);
+   margin-left: 18%;
+   display: flex;
+   text-align: start;
+   align-items: baseline;
+   margin-top: -4.5%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 15px;
+   
+   
+}
+.signup a{
+   text-decoration: none;
+   margin-left: 64%;
+   text-align: center;
+   display: flex;
+   flex: 1;
+   margin-top: 19px;
+   color: rgb(0, 167, 234);
+}
+.app 
+{
+    display: flex;
+    align-items: baseline;
+    margin-top: 6%;
+    color:rgb(38, 38,38);
+    line-height: 10px;
+    padding-right: 120px;
+
+}
+
+footer h4{
+    padding-left: 46.5%;
+    padding-top: 20px;
+    color:rgb(134, 132, 132) ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+footer .rightbox{
+    margin-left: 41%;
+    margin-top: 1%;
+    
+}
+.rightbox:hover{
+    cursor: pointer;
+}
+.app{
+    margin-left: 21%;
+    margin-top: 83px;
+    
+    
+}
+.app a{
+    text-decoration: none;
+    padding: 0 7px;
+    color: rgb(176, 170, 170);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+.app a:hover{
+    text-decoration: underline;
+}
+.app2 {
+    margin-left: 42%;
+    margin-top: 25px;
+}
+.app2 a{
+    text-decoration: none;
+    padding: 0 7px;
+    color: rgb(176, 170, 170);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+.app2 a:hover{
+    text-decoration: underline;
+}

