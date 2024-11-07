@@ -113,10 +113,9 @@ p{
 .signup p{
    color: rgb(142, 139, 139);
    margin-left: 18%;
-   display: flex;
+   margin-top: 20px;
    text-align: start;
    align-items: baseline;
-   margin-top: -4.5%;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: 15px;
    
@@ -124,11 +123,11 @@ p{
 }
 .signup a{
    text-decoration: none;
-   margin-left: 64%;
+   margin-left: 54%;
    text-align: center;
    display: flex;
    flex: 1;
-   margin-top: 19px;
+   margin-top: -16px;
    color: rgb(0, 167, 234);
 }
 .app 
