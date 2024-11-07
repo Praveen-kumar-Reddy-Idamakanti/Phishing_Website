@@ -3,4 +3,3 @@ python -m pip install --upgrade pip
 Set-ExecutionPolicy Unrestricted -Scope Process
 pip install Flask
 python -m pip install Flask-SQLAlchemy
-flask run
