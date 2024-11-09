@@ -6,7 +6,7 @@ this stores the userName and password in server
 
 from flask import Flask, render_template, request,send_file,request, jsonify
 from flask_sqlalchemy import SQLAlchemy
-from flask_ngrok import run_with_ngrok
+
 
 app = Flask(__name__, template_folder="templates")
  
